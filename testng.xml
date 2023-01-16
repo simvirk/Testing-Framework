@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Pragra Suite">
+    <test name="frontend">
+        <classes>
+            <class name="framework.synchronization.SeleniumWaitTest"></class>
+        </classes>
+    </test>
+</suite>

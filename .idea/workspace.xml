@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9c15ad2-e23d-42e8-87be-21ac2a729c57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/config/configDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/data/ContactProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/data/ExcelDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/drivermanager/BrowserTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/drivermanager/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/listeners/ScreenshotListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/Employers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/NavBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/Thankyou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reports/HtmlReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reports/ReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/synchronization/SeleniumWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/testcases/ConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/framework.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HSPKTd2HlsE4mrpdqlydSVfaPR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.ReportTest.test2">
+    <configuration name="ConfigTest.browserTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.testcases" />
+      <option name="MAIN_CLASS_NAME" value="framework.testcases.ConfigTest" />
+      <option name="METHOD_NAME" value="browserTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.reports" />
+      <option name="MAIN_CLASS_NAME" value="framework.reports.ReportTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportTest.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.reports" />
+      <option name="MAIN_CLASS_NAME" value="framework.reports.ReportTest" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumWaitTest.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.config" />
+      <option name="MAIN_CLASS_NAME" value="framework.synchronization.SeleniumWaitTest" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumWaitTest.testName2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.config" />
+      <option name="MAIN_CLASS_NAME" value="framework.synchronization.SeleniumWaitTest" />
+      <option name="METHOD_NAME" value="testName2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ReportTest.test2" />
+        <item itemvalue="TestNG.ReportTest.testName" />
+        <item itemvalue="TestNG.SeleniumWaitTest.testName2" />
+        <item itemvalue="TestNG.SeleniumWaitTest.testName" />
+        <item itemvalue="TestNG.ConfigTest.browserTest2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9c15ad2-e23d-42e8-87be-21ac2a729c57" name="Changes" comment="" />
+      <created>1668275451242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668275451242</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

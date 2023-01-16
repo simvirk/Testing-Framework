@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="MyApp" packages="">
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:sss.SSS} [%t] %-5level %logger{24} - %m%n"/>
+        </Console>
+        <File name="LoginFile" filename="framework.log">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:sss.SSS} [%t] %-5level %logger{24} - %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="error">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+        <Logger name="framework.config" level="warn">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="LoginFile"></AppenderRef>
+        </Logger>
+    </Loggers>
+</Configuration>
